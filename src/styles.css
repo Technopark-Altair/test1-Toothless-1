@@ -29,7 +29,7 @@
   color: aliceblue;
 }
 
-@media screen and (min-device-width: 300px) and (max-device-width: 1200px) {
+@media screen and (min-width: 300px) and (max-width: 1200px) {
   .image {
     display: block;
     margin-left: auto;
