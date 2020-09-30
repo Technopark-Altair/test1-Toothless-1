@@ -1,0 +1,70 @@
+/* You can add global styles to this file, and also import other style files */
+.image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.form {
+  text-align: center;
+}
+
+.time:focus {
+  background: #2f4f4f;
+  color: aliceblue;
+}
+.password:focus {
+  background: #2f4f4f;
+  color: aliceblue;
+}
+.fio:focus {
+  background: #2f4f4f;
+  color: aliceblue;
+}
+.mail:focus {
+  background: #2f4f4f;
+  color: aliceblue;
+}
+.button_submit:hover {
+  background: #2f4f4f;
+  color: aliceblue;
+}
+
+@media screen and (min-device-width: 300px) and (max-device-width: 1200px) {
+  .image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+  .high_form {
+    text-align: center;
+  }
+  small {
+    font-size: 20px;
+  }
+  .fio {
+    width: 30%;
+    font-size: 17px;
+    border: 2px solid;
+  }
+  .mail {
+    width: 30%;
+    font-size: 17px;
+    border: 2px solid;
+  }
+  .password {
+    width: 30%;
+    font-size: 17px;
+    border: 2px solid;
+  }
+  .time {
+    width: 30%;
+    font-size: 17px;
+    border: 2px solid;
+  }
+  .button_submit {
+    width: 30%;
+    font-size: 17px;
+    border: 2px solid;
+  }
+}
