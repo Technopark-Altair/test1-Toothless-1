@@ -7,20 +7,21 @@
 .form {
   text-align: center;
 }
-.mail:hover {
-  background: #696969;
+
+.time:focus {
+  background: #2f4f4f;
   color: aliceblue;
 }
-.fio:hover {
-  background: #696969;
+.password:focus {
+  background: #2f4f4f;
   color: aliceblue;
 }
-.password:hover {
-  background: #696969;
+.fio:focus {
+  background: #2f4f4f;
   color: aliceblue;
 }
-.time:hover {
-  background: #696969;
+.mail:focus {
+  background: #2f4f4f;
   color: aliceblue;
 }
 .button_submit:hover {
